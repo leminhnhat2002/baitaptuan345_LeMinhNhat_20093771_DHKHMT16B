@@ -1,0 +1,47 @@
+h1{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(100, 102, 104);
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aquamarine;
+    height: 60px;
+    z-index: 2px;
+}
+.nav{
+    z-index: 1px;
+    position: absolute;
+    top:121px;
+    left: 0px;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(144, 146, 146);
+    margin-left: 8px;
+    padding-top: 30px;
+}
+h3{
+    z-index: 0px;
+    left: 0px;
+    color: beige;
+    font-size: 20px;
+}
+.abstract
+{
+    font-weight: bold;
+    margin-left: 150px;
+    text-align: top;
+}
+#anh img{
+    min-width: 20px;
+    size: 30px;
+    font-size: 20px;
+
+}
+h2{
+    margin-left: 200px;
+    padding-top: 120px;
+}
+p, ul{
+    margin-left: 150px;
+}

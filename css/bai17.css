@@ -1,0 +1,72 @@
+.home{
+    background: firebrick;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.home ul{
+    background-color: firebrick;
+    list-style-type: none;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+.home a{
+   float: left;
+    padding-left: 20px;
+    height: 40px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px -2px 1em rgb(63, 54, 18);
+    color: floralwhite;
+    text-align: center;
+}
+.home a:link{
+    color: wheat;
+    background: firebrick none;
+    text-decoration: none;
+    
+}
+.home a:hover{
+    text-decoration: none;
+    display: block;
+    color: rgb(97, 28, 8);
+    background: rgb(238, 221, 221);
+   
+}
+ li> ul
+{
+    display: none;
+    background: cornsilk;
+
+}
+ li:hover  ul
+{
+    display: block;
+    position: absolute;
+    background-color: firebrick;
+    margin-top: -5px;
+    margin: 50px;
+    padding: 200px;
+    padding-left: 10px;
+    margin-left: 0px;
+    border-collapse:1px solid rgb(65, 58, 46);
+    text-align: center;
+    width: 10px;
+    height: 20px;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+ li:hover > ul .men li a:link
+{
+ display: block;
+ margin: -20px;
+}
+li
+{
+    background-color: cornsilk;
+    color: darkgoldenrod;
+}

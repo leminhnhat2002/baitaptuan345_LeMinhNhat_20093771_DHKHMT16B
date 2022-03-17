@@ -1,0 +1,40 @@
+* {
+  margin: 0 auto;
+}
+.body {
+  width: 960px;
+  border: 10px solid cyan;
+  padding: 30px 30px;
+}
+h1 {
+  padding-bottom: 20px;
+}
+h3 {
+  margin: 15px 0;
+}
+.nav {
+  display: inline-block;
+  list-style: none;
+  padding: 5px 15px 5px 0px;
+  text-transform: uppercase;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  padding-right: 20px;
+  text-decoration: none;
+}
+.body.picture {
+  background-image: url("EggTart.jpg");
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pic {
+  float: right;
+}
+.text {
+}

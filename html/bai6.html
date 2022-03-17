@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: auto;
+        }
+        
+        .container,
+        .row {
+            width: 100%;
+        }
+        
+        .row:before,
+        .row:after {
+            display: table;
+            content: "";
+        }
+        
+        .row:after {
+            clear: both;
+        }
+        
+        .col1,
+        .col2,
+        .col3 {
+            float: left;
+            width: 25%;
+            margin: 1%;
+            padding: 1%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <p>Hang1- cot1</p>
+            </div>
+            <div class="col2">
+                <p>Hang1- cot2</p>
+            </div>
+            <div class="col3">
+                <p>Hang1- cot3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                <p>Hang2- cot1</p>
+            </div>
+            <div class="col2">
+                <p>Hang2- cot2</p>
+            </div>
+            <div class="col3">
+                <p>Hang2- cot3</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

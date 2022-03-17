@@ -1,0 +1,8 @@
+div {
+    height: 800px;
+    width: 1089px;
+    background-image: url(../img/wc1703725-4k-pc-wallpapers.jpg), url(../img/660691.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
